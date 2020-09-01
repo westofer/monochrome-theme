@@ -39,8 +39,11 @@ KDE plasma.
 
 ### Manjaro/Arch
 
+```sh
     $ sudo pacman -Syu yay # This line is Only for Manjaro users (Arch users know what to do btw :P)
     $ yay -Sy picom-ibhagwan-git
+
+```
 
 <a id="org97a70f7"></a>
 
