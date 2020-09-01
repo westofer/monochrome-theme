@@ -77,7 +77,7 @@ requires a little bit of setup to make it work.
 Open your settings > Hardware Section > Display and Login > Compositor >
 
 From there disable Compositor on start up
-![img](/images/monochrome-plasma/disable-compositor.png)
+![img](/images/disable-compositor.png)
 
 - Next Logout and log back for the changes to take effect
 - Copy and paste the picom config from [.config/picom.conf](https://raw.githubusercontent.com/westofer/monochrome-theme/master/.config/picom.conf) into
@@ -88,7 +88,7 @@ From there disable Compositor on start up
       curl https://raw.githubusercontent.com/westofer/monochrome-theme/master/.config/picom.conf -o ~/.config/picom.conf
 
 - Run picom to test the rounded corners :)
-  You should see something similar to ![img](/images/monochrome-plasma/rounded-corners.gif)
+  You should see something similar to ![img](/images/rounded-corners.gif)
 
   Note: if you get an error stating &ldquo;Another Composite Manager is already
   running&rdquo;, try running \`pkill picom\` and repeating the first step ;)
@@ -107,7 +107,7 @@ Now add this file to autostartup by opening \`settings >> Startup and shutdown >
 Autostart >> Add Script >> Type &ldquo;~/bin/autostart.sh&rdquo;\`
 
 Here is a gif for reference:
-![img](/images/monochrome-plasma/autostart.gif)
+![img](/images/autostart.gif)
 
 \***\*Now Login to test it\*\***
 
@@ -133,21 +133,21 @@ From the settings >> Global Themes >> Get New Global themes >> Search for
 
 Demo:
 
-![img](/images/monochrome-plasma/konsole-colorscheme.gif)
+![img](/images/konsole-colorscheme.gif)
 
 You might also want to change the margin size:
 
-![img](/images/monochrome-plasma/margin-size.png)
+![img](/images/margin-size.png)
 
 You might also want to hide the menu bar
 
-![img](/images/monochrome-plasma/menubar.png)
+![img](/images/menubar.png)
 
 Another option is to hide the title bat
 
 (remeber that you can drag windows without a title bar while holding ALT)
 
-![img](/images/monochrome-plasma/titlebar.png)
+![img](/images/titlebar.png)
 
 <a id="org82b63ee"></a>
 
@@ -157,7 +157,7 @@ This should be easy too
 
 settings >> icons >> add icons >> install icon >> use
 
-![img](/images/monochrome-plasma/installing-icons.gif)
+![img](/images/installing-icons.gif)
 
 you get the idea
 
@@ -167,24 +167,24 @@ you get the idea
 
 First we need to set the panel to be flexable.
 
-![img](/images/monochrome-plasma/panel-flexable.png)
+![img](/images/panel-flexable.png)
 
 Then click edit panel
 
-![img](/images/monochrome-plasma/panel-edit.png)
+![img](/images/panel-edit.png)
 
 On the right we should have &rsquo;more options&rsquo; button, click that then center the panel
 
-![img](/images/monochrome-plasma/panel-center.png)
+![img](/images/panel-center.png)
 
 On the edge of the panel you should be able to resize the panel as in this
 picture
 
-![img](/images/monochrome-plasma/panel-resize-handle.png)
+![img](/images/panel-resize-handle.png)
 
 The whole process looks like this:
 
-![img](/images/monochrome-plasma/panel-resize.gif)
+![img](/images/panel-resize.gif)
 
 press ESC to exit and save
 
@@ -198,7 +198,7 @@ press ESC to exit and save
 
 # Final words
 
-![img](/images/monochrome-plasma/final-rice.png)
+![img](/images/final-rice.png)
 
 Notice that I didn&rsquo;t include any font configuration, it should be something
 simple that you can do :). This applies to using css stylesheets for firefox.
