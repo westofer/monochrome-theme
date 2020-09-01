@@ -1,1 +1,1 @@
-# monochrome-theme
+# Monochrome Theme
