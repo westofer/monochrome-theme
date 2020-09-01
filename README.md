@@ -29,7 +29,7 @@ KDE plasma.
 
 ## How well it look like?
 
-![img](/images/monochrome-plasma/final-rice.png)
+![img](/images/final-rice.png)
 
 <a id="orgbdd4fd7"></a>
 
