@@ -207,7 +207,7 @@ press ESC to exit and save
 Notice that I didn&rsquo;t include any font configuration, it should be something
 simple that you can do :). This applies to using css stylesheets for firefox.
 
-For the Dolphin File Manager I used <F9> and alt+m to hide the side panel and
+For the Dolphin File Manager I used F9 and alt+m to hide the side panel and
 menu bar respectively. An alternative to dolphin would be nautilus.
 
 The Picture included neofetch, cava and tty-clock (press c to center the clock)
