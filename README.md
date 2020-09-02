@@ -1,7 +1,7 @@
 # Table of Contents
 
 1.  [Why I did I write this guide?](#org602b926)
-2.  [How well it look like?](#org23c08a5)
+2.  [How will it look like?](#org23c08a5)
 3.  [Installing dependencies](#orgbdd4fd7)
     1.  [Manjaro/Arch](#org466e3ab)
     2.  [Ubuntu/Debain/Pop<sub>OS</sub>/Deepin/&#x2026;&#x2026;](#org97a70f7)
@@ -27,7 +27,7 @@ KDE plasma.
 
 <a id="org23c08a5"></a>
 
-## How well it look like?
+## How will it look like?
 
 ![img](/images/final-rice.png)
 
@@ -80,11 +80,12 @@ requires a little bit of setup to make it work.
 Open your settings > Hardware Section > Display and Login > Compositor >
 
 From there disable Compositor on start up
+
 ![img](/images/disable-compositor.png)
 
 - Next Logout and log back for the changes to take effect
 - Copy and paste the picom config from [.config/picom.conf](https://raw.githubusercontent.com/westofer/monochrome-theme/master/.config/picom.conf) into
-  ~/.config/picom.conf. or use this command if you feel too lazy to do things
+  ~/.config/picom.conf or use this command if you feel too lazy to do things
   manually
 
       # will overwrite your current config
