@@ -3,17 +3,17 @@
 1.  [Why I did I write this guide?](#org602b926)
 2.  [How well it look like?](#org23c08a5)
 3.  [Installing dependencies](#orgbdd4fd7)
-    1.  [Manjaro/Arch](#org466e3ab)
-    2.  [Ubuntu/Debain/Pop<sub>OS</sub>/Deepin/&#x2026;&#x2026;](#org97a70f7)
-4.  [Enabling Rounded Corners](#org3a6d975)
-    1.  [Running picom on startup automatically:](#org97e256a)
-5.  [Installing Themes from kde store](#org98d6a3e)
-6.  [Installing Konsole Scheme](#org81ac136)
-7.  [Installing Icons](#org82b63ee)
-8.  [Configuring the panel](#org09d0784)
+4.  [Manjaro/Arch](#org466e3ab)
+5.  [Ubuntu/Debain/Pop<sub>OS</sub>/Deepin/&#x2026;&#x2026;](#org97a70f7)
+6.  [Enabling Rounded Corners](#org3a6d975)
+7.  [Running picom on startup automatically:](#org97e256a)
+8.  [Installing Themes from kde store](#org98d6a3e)
+9.  [Installing Konsole Scheme](#org81ac136)
+10. [Installing Icons](#org82b63ee)
+11. [Configuring the panel](#org09d0784)
 
-9.  [Wallpaper](#orgd7a0f94)
-10. [Final words](#orgee5b22f)
+12. [Wallpaper](#orgd7a0f94)
+13. [Final words](#orgee5b22f)
 
 (Theme by u/DarkReaper231)
 
@@ -53,6 +53,7 @@ A guide on how to install picom-ibhagwan is [on his repo](https://github.com/ibh
 If you don&rsquo;t feel like reading there then here is the untested summary of the
 instructions
 
+```sh
     sudo apt update && sudo apt upgrade
 
     # this is one line lol
@@ -66,6 +67,7 @@ instructions
     ninja -C build
 
     ninja -C build install #if it fails run it with sudo
+```
 
 <a id="org3a6d975"></a>
 
@@ -87,14 +89,15 @@ From there disable Compositor on start up
   ~/.config/picom.conf. or use this command if you feel too lazy to do things
   manually
 
-      # will overwrite your current config
-      curl https://raw.githubusercontent.com/westofer/monochrome-theme/master/.config/picom.conf -o ~/.config/picom.conf
+# will overwrite your current config
+
+curl https://raw.githubusercontent.com/westofer/monochrome-theme/master/.config/picom.conf -o ~/.config/picom.conf
 
 - Run picom to test the rounded corners :)
   You should see something similar to ![img](/images/rounded-corners.gif)
 
-  Note: if you get an error stating &ldquo;Another Composite Manager is already
-  running&rdquo;, try running \`pkill picom\` and repeating the first step ;)
+Note: if you get an error stating &ldquo;Another Composite Manager is already
+running&rdquo;, try running \`pkill picom\` and repeating the first step ;)
 
 <a id="org97e256a"></a>
 
@@ -104,7 +107,7 @@ From there disable Compositor on start up
   are going to create a script that runs on startup. The process is simple and
   and can be done by running this one liner to do most of the process automatically.
 
-      mkdir -p ~/bin/ && echo "picom &" > ~/bin/autostart.sh && chmod +x ~/bin/autostart.sh
+mkdir -p ~/bin/ && echo "picom &" > ~/bin/autostart.sh && chmod +x ~/bin/autostart.sh
 
 Now add this file to autostartup by opening \`settings >> Startup and shutdown >>
 Autostart >> Add Script >> Type &ldquo;~/bin/autostart.sh&rdquo;\`
