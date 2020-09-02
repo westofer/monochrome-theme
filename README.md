@@ -126,6 +126,9 @@ Yay! This was the hardest part!
 From the settings >> Global Themes >> Get New Global themes >> Search for
 &ldquo;monochrome&rdquo; >> install and apply
 
+![img](/images/choosing-global-theme1.gif)
+![img](/images/choosing-global-theme2.gif)
+
 <a id="org81ac136"></a>
 
 ## Installing Konsole Scheme
