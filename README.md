@@ -153,7 +153,7 @@ You might also want to hide the menu bar
 
 ![img](/images/menubar.png)
 
-Another option is to hide the title bat
+Another option is to hide the title bar
 
 (remeber that you can drag windows without a title bar while holding ALT)
 
@@ -175,7 +175,7 @@ you get the idea
 
 ## Configuring the panel
 
-First we need to set the panel to be flexable.
+First we need to set the panel to be flexible.
 
 ![img](/images/panel-flexable.png)
 
